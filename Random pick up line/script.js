@@ -1,0 +1,62 @@
+
+const jokes = [
+  "म शब्दहरु पढेर कैले थाक्दिन थिए, जब तिम्रो आँखा देखे, शब्दहरु यसै फिक्का लाग्दैछन् ! 🖤",
+  "आन्तरिक राजस्व विभाग गएको छौ की नाई?? यति राम्रो हुनुको पनि कर लाग्छ होला नि!!",
+  "तिमी मन पर्नु संयोग थियो अनि, तिमी नै मन परिरहनु प्रेम...❤️😅",
+  "बोलीले तिमीलाई भन्न सक्दिन,यसैले सधै भगवानलाई पुकार्छु,जब पनि तिम्रो दिल जोरले धडकिन्छ,समझिनु कि म तिमीलाई दिलैदेखि याद गरिरहेछु😁🥰",
+  "I can't change water into wine ,but i will definitely make you mine😩❤️",
+  "Teme paila ko janam ma Sirak thyau ? Cause tmlai dekhne betaki pattauna mann lagxa",
+  "Timro lipstick ko ta guarantee didaina but gajal kaile bigrina dine xaina♥️",
+  "He :Ghar ma rati light balnu pardaina hola hai,  She:kinaw Ra , He:Jun jasto xori paunu bhaxa ta temro mummy la",
+  "math book chatdiye maile because tesma timilai patyaune formula thiyena 😂😒",
+  "Me: timro photo pathau na, she :why?, me:tas kaldaixu rani nai haryoo",
+  "Me: are u kathmandu ko dhulo, She: no, why ?, Me: coz u take my breath away😍",
+  "He:Do u love yourself, She: Yes, He:I think we love the same person",
+  "Mitho Mitho Pick Up Lines Vandinthiyee☀️!,Tmlai Sugar Lagxa Ki Vanerw Matra hooo❤😂",
+  "Jungle jungle hidxu sikari navanw🌳🚶,Timro photo magxu vikari navanw🥺",
+  "do you have an extra heart ?, mine was just stolen......by you🤭",
+  "Me: aru vana , She:kei xaina tmi vana, Me: tmi twh afnai hau ksri aru vanu tmilai",
+  "Are you a magnet🧲🔫, because my heart is attracting towards you👀💗",
+  "Me : Oe timi hejo xutti ma theu ke kya ho, She: 🤔No. Why?,  Me : hejo mero ghar bata jun nai dekheko theyana ta😅",
+  "Me:tmi lai ticket chaidaina  She :kaha jana , Me :mero mutu ma 😊",
+  "I would never play hide and seek with you because someone like you is impossible to find 😂❤️",
+  "Ksm tara tmro aakha ma chai kei xa hai ,jati khera ni herxu haraune matra garxu yr😩",
+  "If I could rearrange the alphabet I’d put U and I together😁",
+  "I don't have any pick up lines so, can i pick you up",
+  "mobile hang bhayo ki ho jata tetai tmro photo matra dekhchu ta😩",
+  "Me: rati Rati lamkhutte karaunda timro mom dad ko yaad aauncha , She: why , Me: kaan ma aayera juwaiiieeeeeeee re😂",
+  "ma chai snowflake hunu parxa,because I've fallen for you😅",
+  "Do I know you? ‘Cause you look a lot like my next Girlfriend",
+  "Me : are you an oxygen or food ,She : why? , Me : cuz I can't live without you 🙂",
+  "Me:I wanna give u a point out of 10 for Ur beauty , She:ok , Me:u r 9 out of 10 , she: y only 9? , Me:bcz I am the 1 that u need",
+  "do you want organ donor bf cause I can give my heart at for your smile 🥰",
+  "aama lai islam ma vanxa ammi , k banne ho mero xora xori ko mummy",
+  "excuse me: You and I have a different caste right , she: right ,so how about we try to make a new together as one",
+  "He : tmro profile sathi lai dekham , She:why? , He:tini haru lai bhuju ko photo dakhauhnu paryo ",
+  "Nafulne ful lai season chaidaina ,timlai maya garnalai reason chaidaina ,maya ko parikxya ma pass matra bhaye pugxa maya ,distinction chaidaina😂❣️",
+  "are u tired because u have been running through my heart day and night 😁",
+  "She :k gardai xau. ,Me:tmlai impres pardai xu😂",
+  "are youu special things ,cause tmilai herera tw mero oth ma muskan aauxa😂",
+  "aakha le ta hajarau lai rojxa, Tara k garnu Maya , yo man le ta timlai Mai khojxa",
+  "Me :excuse me malai bato bataii deuna, she: kata janii ho ,Me: timro vitra janii bato😂",
+  "I ain’t insurance agent but can you beema boy ?",
+  "sab ley vnxan para para 🤘🤘, tmro mutu mero ma sara🥺🥰",
+  "are u mummy ko kucho ,cause u hit different 😇✌️",
+  "I ain't khalasi but janne ho?😂",
+  "camera hauki kya ho ,dekheki smile matra garna man lagxa😅😆",
+  "he: timi aago hou rw ? , she :no why? , he: ani kina timlai dekhni bittikai mero mutu polxa😅",
+  "are you wifi? , ans ... ,coz iam feeling connection between us",
+  "tmlai hijo baduli lago ki nai , malai kasto tmro yadd aai ratho k😳",
+  "magar hu khane garxhu gheeu ,aaja bhandi hale i love u😜",
+  "You may fall from the sky, you may fall from a tree, but the best way to fall... is in love with me.😉",
+  "Are you a time traveler? Because I absolutely see you in my future",
+  "Me: timlai samjirako xa , She: kasle , Me: maile 😅",
+];
+
+function hello() {
+  let randomNumber = Math.floor(Math.random() * jokes.length);
+  let random = jokes[randomNumber];
+  let a = document.querySelector(".joke");
+  a.innerHTML = random;
+}
+document.getElementById("myJoke").addEventListener("click", hello);
